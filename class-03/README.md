@@ -33,20 +33,33 @@ Next class will focus on installing Ubuntu OS to your lab computer.
 - If you make a change in BIOS that causes your computer to not boot up properly, you can reset the CMOS to restore the BIOS settings to their default values. This can be helpful if you are not sure what caused the problem and you want to start over.
 
 ### What
-- What connection does the BIOS have to the CMOS battery?
-- Why is the CMOS battery necessary?
-- Where can the CMOS battery be found?
+- CMOS Battery: A small battery on the computer's motherboard that provides power to the CMOS memory, allowing it to retain configuration data when the computer is powered off.
+- Firmware: Software that is permanently stored in a computer's memory and is responsible for basic hardware initialization during the booting process.
+- POST (Power-On Self-Test): A diagnostic process performed by the BIOS during startup to check the computer's hardware components for errors.
+- UEFI (Unified Extensible Firmware Interface): A modern replacement for traditional BIOS firmware, providing advanced features and security options for booting a computer.
+- Boot Order: The sequence in which the computer checks different boot devices (such as hard drives, SSDs, optical drives, USB drives) to find the operating system to load.
+- Boot Loader: A program or component that loads the operating system into the computer's memory during the boot process.
+- Boot Menu: A menu that allows users to manually select a boot device or boot from different storage options.
+- BIOS Updates: Software patches or updates provided by the motherboard manufacturer to improve system stability, compatibility, and security.
+- Error Codes: Numeric or alphanumeric codes displayed during the POST process to indicate specific hardware issues.
 
 ### How
-- Continuing to work in the lowest level of abstraction, we will work hands-on with our CMOS battery in an effort to reset the BIOS settings.
+- CMOS, startup sequences, and BIOS are interconnected components that work together to ensure a computer system boots up correctly and operates smoothly. Here's how they work together:
+  - Power On
+    - When you power on the computer, the BIOS firmware is activated.
+  - POST (Power-On Self-Test)
+    - The BIOS performs a series of tests on the hardware components to ensure they are functioning correctly. It uses the configuration data stored in CMOS to initialize these components.
+  - CMOS Configuration
+    - The BIOS reads the CMOS settings to configure the hardware according to the user-defined parameters, such as CPU speed, RAM timings, and boot order.
+  - Startup Sequence
+    - Based on the boot order specified in CMOS, the BIOS attempts to load the operating system from the designated boot device. If successful, the operating system is loaded into the computer's memory, and the computer becomes operational.
 - The work we do on our lab computers today will setup our cyber range for labs in the future courses.
 
 ### Experimentation and Discovery Ideas
-- Create a flowchart that shows the startup sequence for a typical computer.
-- What happens if the CMOS battery dies?
-- How do you find out what key(s) to press to enter BIOS?
-- What does a CMOS jumper do?
-- What do all the different settings in BIOS do? Make a list and explain them.
+- Imagine a scenario where a computer doesn’t follow its regular startup sequence. What factors could be at play, and how might understanding CMOS settings help diagnose the issue?
+- In the context of experimentation, how could a deep understanding of CMOS configurations open avenues for innovative projects? Can you think of any experimental setups where tweaking these settings might yield intriguing results?
+- Considering the role of CMOS in retaining system configurations, how might this feature influence long-term experiments? What challenges and opportunities arise when experiments span extended periods?
+- Exploring the concept of boot order, how might experimenting with different boot devices impact the outcome of computational experiments? What creative possibilities emerge when we manipulate the sequence in unconventional ways?
 
 ## Learning Objectives
 
@@ -76,4 +89,11 @@ Next class will focus on installing Ubuntu OS to your lab computer.
 
 ## Notes
 
-- List 1 new thing that you learned today.
+- What connection does the BIOS have to the CMOS battery?
+- Why is the CMOS battery necessary?
+- Where can the CMOS battery be found?
+- Create a flowchart that shows the startup sequence for a typical computer.
+- What happens if the CMOS battery dies?
+- How do you find out what key(s) to press to enter BIOS?
+- What does a CMOS jumper do?
+- What do all the different settings in BIOS do? Make a list and explain them.
