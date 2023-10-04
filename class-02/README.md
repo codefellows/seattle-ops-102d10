@@ -90,6 +90,7 @@ The different components of a computer work together in a coordinated manner to 
 - Infographic - [pcbuildadvisor.com - How to build a computer](https://www.pcbuildadvisor.com/how-to-build-a-computer-step-by-step-infographic/){:target="_blank"}
 - [How Computers Work: What Makes a Computer a Computer](https://www.youtube.com/watch?v=mCq8-xTH7jA&list=PLzdnOPI1iJNcsRwJhvksEo1tJqjIqWbN-&index=3&){:target="_blank"}
 - Subscribe to this Playlist for future reference: [How Computers Work series](https://www.youtube.com/playlist?list=PLzdnOPI1iJNcsRwJhvksEo1tJqjIqWbN-){:target="_blank"}
+- [CrashCourse - Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo){:target="blank"}
 
 ## Notes
 

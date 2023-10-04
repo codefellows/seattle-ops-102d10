@@ -80,6 +80,7 @@ Next class we will disassemble our lab computers, take an inventory of every com
 - [About Wikis](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis){:target="_blank"}
 - [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/){:target="_blank"}
 - [Visual Studio Code](https://code.visualstudio.com/){:target="_blank"}
+- [CrashCourse - Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo){:target="blank"}
 
 ### Videos
 
