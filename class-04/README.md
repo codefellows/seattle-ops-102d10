@@ -97,7 +97,6 @@ Next class will focus on updating your OS and installing applications.
 
 - [Download Ubuntu Desktop](https://ubuntu.com/download/desktop){:target="_blank"}
 - Professor Messer:
-  - [Linux Commands](https://www.professormesser.com/free-a-plus-training/220-1102/220-1102-video/linux-commands-220-1102/)
   - [Linux Features](https://www.professormesser.com/free-a-plus-training/220-1102/220-1102-video/linux-features-220-1102/)
   - [Installing Operating Systems](https://www.professormesser.com/free-a-plus-training/220-1102/220-1102-video/installing-operating-systems-comptia-a-220-1102-1-9/)
 - [CompTIA Linux+ Certificate](https://www.comptia.org/certifications/linux){:target="_blank"}
