@@ -115,6 +115,7 @@ Next class will focus on virtualization with Ubuntu Linux.
 
 ## Helpful Resources
 
+- [Professor Messer - Securing a SOHO Network](https://www.professormesser.com/free-a-plus-training/220-1102/220-1102-video/securing-a-soho-network-comptia-a-220-1102-2-9/){:target="blank"}
 - CrashCourse on YouTube
   - [Computer Networks](https://www.youtube.com/watch?v=3QhU9jd03a0&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=29&t=15s){:target="blank"}
   - [The Internet](https://www.youtube.com/watch?v=AEaKrq3SpW8&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=30){:target="blank"}

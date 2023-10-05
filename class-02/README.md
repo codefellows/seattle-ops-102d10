@@ -85,6 +85,7 @@ The different components of a computer work together in a coordinated manner to 
 
 ## Helpful Resources
 
+- [Professor Messer - Troubleshooting Common Hardware Problems](https://www.professormesser.com/free-a-plus-training/220-1101/220-1101-video/troubleshooting-common-hardware-problems-220-1101/){:target="_blank"}
 - [WikiHow - How to Build a PC](https://www.wikihow.com/Build-a-Computer){:target="_blank"}
 - Video - [YouTube Robeytech - How to Build a PC](https://www.youtube.com/watch?v=MtALhv22Ltk){:target="_blank"}
 - Infographic - [pcbuildadvisor.com - How to build a computer](https://www.pcbuildadvisor.com/how-to-build-a-computer-step-by-step-infographic/){:target="_blank"}

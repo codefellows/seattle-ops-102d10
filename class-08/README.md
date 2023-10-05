@@ -26,25 +26,53 @@ Next class will focus on getting familiar with the command line, terminals and c
 
 ## Virtualization of Windows OS
 
-<!-- ### Why
-- This topic is important because ...
-- What problems are we facing that this concept will solve... -->
+### Why
+- Windows OS is one of the most widely used operating systems globally. Many businesses, educational institutions, and government organizations use Windows-based computers. Learning how to navigate Windows ensures you can use computers in various settings.
+- Many software applications and games are developed for Windows. By being proficient in using Windows, you can access and use a wide range of software without compatibility issues.
+- Windows OS provides a user-friendly interface and a variety of productivity tools such as Microsoft Office suite, which includes Word, Excel, and PowerPoint. Proficiency in these tools is often a requirement in many job positions.
+- There is a vast amount of online resources, tutorials, and support available for Windows users. Knowing how to use Windows means you can access these resources to troubleshoot issues and learn new skills.
+- Windows OS offers built-in networking features that make it easier to connect computers to the internet, share files and printers, and set up home networks.
+- Many job roles require proficiency in using Windows-based applications. Having Windows skills can enhance your employability and open up various career opportunities in fields such as IT support, software development, data analysis, and more.
 
-<!-- ### What
-- Concepts and Vocabulary listed here
-- Be sure NOT to provide the definitions in this document, students can fill them in as note
-- For example:
-- REST: A modern way to transfer _____ between 2 systems using the _____ protocol. -->
+### What
+- Graphical User Interface (GUI): A visual way of interacting with the computer using graphical elements such as windows, icons, buttons, and menus.
+- Desktop: The primary screen area that you see after logging into Windows, where you can place icons for applications, files, and shortcuts.
+- Start Menu: A menu in Windows that provides access to various programs, settings, and features.
+- Taskbar: The bar usually located at the bottom of the screen in Windows, displaying open applications and providing quick access to certain features.
+- File Explorer: A file management application in Windows used to browse files, folders, and drives on your computer.
+- Shortcut: An icon or link that points to a file, folder, application, or website, providing quick access to the target resource.
+- Control Panel: A centralized configuration area in Windows where users can modify system settings and install or uninstall software.
+- Windows Update: A feature that allows Windows users to download and install security updates, patches, and feature enhancements from Microsoft.
+- Task Manager: A system monitor and management tool in Windows that provides information about running applications and processes, and allows users to terminate them if necessary.
+- User Account: A user's personal space on a computer, containing settings, files, and preferences specific to that user.
+- File Extension: A suffix at the end of a filename, indicating the format or type of a file (e.g., .docx for Microsoft Word documents, .jpg for image files).
+- Driver: Software that allows the operating system to communicate with hardware devices such as printers, graphics cards, and network adapters.
+- Registry: A hierarchical database used to store configuration data in Windows operating systems.
+- Firewall: A security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.
+- Antivirus: Software designed to detect, prevent, and remove malicious software (malware) from a computer system.
+- Backup: Creating a copy of important files and data to prevent loss in case of hardware failure, data corruption, or accidental deletion.
+- System Restore: A feature in Windows that allows users to revert their computer's state (system files, programs, and registry settings) to a previous point in time.
 
-<!-- ### How
-- What does the code we need to write have to do to solve these problems?
-- What are some of the major concepts we have to tackle
-- Briefly describe the type of work students will be seeing in demo and performing in lab -->
+### How
+The Windows operating system consists of several layers, each serving specific functions and interacting with one another to provide a complete computing environment. Here are the fundamental layers of the Windows OS, starting from the lowest level (closest to the hardware) to the highest level (user interface and applications):
+- Hardware Layer:
+  - This layer comprises the physical hardware components of the computer, including the CPU, memory (RAM), storage devices (hard drives, SSDs), input/output devices (keyboard, mouse, monitor), and network interfaces.
+- Kernel:
+  - The kernel is the core component of the operating system. It acts as an intermediary between hardware and software, managing system resources, providing essential services (such as process management, memory management, device drivers, and file system access), and ensuring security and stability.
+- Device Drivers:
+  - Device drivers are specialized programs that allow the operating system to communicate with specific hardware devices. These drivers act as translators, enabling the kernel and the hardware to understand each other. Windows includes a vast library of built-in drivers and can also install additional drivers for new hardware components.
+- Executive Services Layer:
+  - The executive services layer provides higher-level system services, such as input/output management, process and thread management, security, and error handling. It extends the functionalities of the kernel and supports the operating system's core operations.
+- Win32 Subsystem:
+  - The Win32 subsystem provides the Win32 API (Application Programming Interface), which is a set of programming instructions and standards for creating Windows applications. It includes graphical components and functions for creating windows, menus, buttons, and other graphical elements. Most Windows applications are built using the Win32 API.
+- User Mode Applications:
+  - User mode applications are the programs that users interact with directly. These include word processors, web browsers, games, and other software applications. User mode applications make use of the services provided by the underlying layers through system calls, accessing resources and functionalities while being isolated from the kernel for security and stability reasons.
+- User Interface:
+  - The user interface layer encompasses the graphical elements users interact with, such as the desktop, Start menu, taskbar, windows, icons, buttons, and other visual components. This layer provides the user experience, allowing users to interact with applications and the operating system intuitively.
 
 ### Experimentation and Discovery Ideas
-- Check out the [PCJS Museum](https://www.pcjs.org/software/pcx86/)!
-  - PCJS Museum refers to the "PCjs Project," an online museum and emulator platform that allows users to experience vintage computer systems and software in a web browser. 
-  - The PCjs Project is a collaborative effort by a group of computer enthusiasts and historians to preserve and provide access to historical computer systems and software.
+- Reflecting on the concept of user experience in Windows, how do you think the balance between customization and standardization affects the way users interact with the OS? Can you think of any real-world examples where too much customization might lead to confusion or inefficiency for users?
+- Considering the rapid advancements in technology, what potential future innovations do you foresee in the Windows operating system or any operating system in general? How might these innovations open new avenues for experimentation and discovery in the realms of artificial intelligence, cybersecurity, or human-computer interaction?
 
 ## Learning Objectives
 
@@ -66,37 +94,22 @@ Next class will focus on getting familiar with the command line, terminals and c
 
 ## Helpful Resources
 
+- Professor Messer:
+  - [An Overview of Windows](https://www.professormesser.com/free-a-plus-training/220-1102/220-1102-video/an-overview-of-windows-220-1102/){:target="_blank"}
+  - [Windows Features](https://www.professormesser.com/free-a-plus-training/220-1102/220-1102-video/windows-features-220-1102/){:target="_blank"}
+  - [Windows Upgrades](https://www.professormesser.com/free-a-plus-training/220-1102/220-1102-video/windows-upgrades-220-1102/){:target="_blank"}
+  - [Troubleshooting Windows](https://www.professormesser.com/free-a-plus-training/220-1102/220-1102-video/troubleshooting-windows-220-1102/){:target="_blank"}
 - How to deploy your own virtual machine in VirtualBox (ref. [Walkthrough](https://askubuntu.com/questions/142549/how-to-install-ubuntu-on-virtualbox)){:target="_blank"}
 - [Windows Media Creation Tool](https://www.microsoft.com/en-us/software-download/windows10){:target="_blank"}
     > For our purposes in class, we will not be activating our installations of Windows. If you have access to activation keys for commercial systems we use in class, feel free to apply them at your discretion.
+- Check out the [PCJS Museum](https://www.pcjs.org/software/pcx86/)!
+  - PCJS Museum refers to the "PCjs Project," an online museum and emulator platform that allows users to experience vintage computer systems and software in a web browser. 
+  - The PCjs Project is a collaborative effort by a group of computer enthusiasts and historians to preserve and provide access to historical computer systems and software.
 
 ## Notes
 
-### Windows 10 VM Hardware Allocation Guide
-
-- Memory (RAM)
-  - Windows 10 typically requires a minimum of 2 GB of RAM to run smoothly, but for a better experience, it is recommended to allocate at least 4 GB or more to the VM, depending on your available system resources and the workload you plan to run. 
-  - If you have a significant amount of RAM on your host machine (e.g., 8 GB or more), allocating 6 GB to 8 GB to the VM would provide a good balance between performance and resource usage.
-
-- CPU
-  - The number of virtual CPUs (vCPUs) to allocate depends on the number of physical CPU cores available on your host machine and the workload you intend to run. 
-  - It is generally recommended to allocate 1-2 vCPUs to a Windows 10 VM, especially if you have a dual-core or quad-core CPU on your host machine. 
-  - If your host machine has a higher core count (e.g., 8 cores or more) and you plan to run CPU-intensive tasks on the VM, you can allocate additional vCPUs to improve performance.
-
-- Hard Disk Space
-  - Allocate enough hard disk space to accommodate the Windows 10 installation, along with the applications and data you expect to use on the VM. 
-  - Microsoft recommends a minimum of 32 GB of disk space for a Windows 10 installation, but this may not be sufficient if you plan to install additional software or store a significant amount of data. 
-  - Allocate at least 50-100 GB of disk space to ensure you have enough room for the VM's needs.
-
-- Graphics
-  - For basic usage and everyday tasks, the default virtual graphics adapter provided by VirtualBox should be sufficient. 
-  - However, if you plan to run graphics-intensive applications or games, you may want to allocate more video memory to the VM. 
-  - In VirtualBox, you can adjust the video memory by going to the VM's settings, selecting "Display," and modifying the "Video Memory" slider. 
-  - Allocating 128 MB to 256 MB of video memory should be adequate for most needs.
-
 ### VirtualBox Guest Additions
-
-- To achieve fullscreen resolution in a VirtualBox virtual machine, you can install VirtualBox Guest Additions, which provides additional features and drivers for improved integration between the host and guest systems.
+To achieve fullscreen resolution in a VirtualBox virtual machine, you can install VirtualBox Guest Additions, which provides additional features and drivers for improved integration between the host and guest systems.
 
 Here's how you can install it:
   1. Start the virtual machine in VirtualBox.
